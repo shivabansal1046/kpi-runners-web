@@ -1,0 +1,86 @@
+{
+  "tasks": [
+    {
+      "id": 1,
+      "text": "Wake up in the morning 07:00 AM",
+      "description": "Desc 1"
+    },
+    {
+      "id": 2,
+      "text": "Get read for school 07:30 AM",
+      "description": "Desc 2"
+    },
+    {
+      "id": 3,
+      "text": "Catch school bus by 07:30 AM",
+      "description": "Desc updated 3"
+    },
+    {
+      "id": 4,
+      "text": "Reach school by 8:30 AM",
+      "description": "Desc 4"
+    },
+    {
+      "id": 5,
+      "text": "Come back by 2:15 PM",
+      "description": "Desc 5"
+    },
+    {
+      "id": 6,
+      "text": "Complete homework by 3:30 PM",
+      "description": "Desc 6"
+    },
+    {
+      "id": 7,
+      "text": "Reach football ground by 4:30 PM",
+      "description": "Desc 7"
+    },
+    {
+      "id": "08",
+      "text": "Return from football ground at 06:00 PM",
+      "description": "Desc 8"
+    },
+    {
+      "id": "9",
+      "text": "Study till 09:30 PM",
+      "description": "Desc 9"
+    },
+    {
+      "id": "10",
+      "text": "Dinner at 09:30 PM",
+      "description": "Desc 10"
+    }
+  ],
+  "users": [
+    {
+      "id": 1,
+      "username": "Shiva Bansal",
+      "email": "shiva.bansal@bp.com",
+      "role": "ADMIN"
+    },
+    {
+      "id": 2,
+      "username": "Reshma",
+      "email": "reshma@test.com",
+      "role": "USER"
+    },
+    {
+      "id": "Ian",
+      "username": "Ian Bansal",
+      "email": "ian.bansal@runners.com",
+      "role": "USER"
+    },
+    {
+      "id": "4",
+      "username": "yatin",
+      "email": "yatin@rite.com",
+      "role": "ADMIN"
+    },
+    {
+      "id": "aa",
+      "username": "aa",
+      "email": "aa",
+      "role": "USER"
+    }
+  ]
+}

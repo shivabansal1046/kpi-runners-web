@@ -1,19 +1,19 @@
 {
   "files": {
     "main.css": "/kpi-runners-web/static/css/main.9e70eac7.chunk.css",
-    "main.js": "/kpi-runners-web/static/js/main.3d3bed92.chunk.js",
-    "main.js.map": "/kpi-runners-web/static/js/main.3d3bed92.chunk.js.map",
-    "runtime-main.js": "/kpi-runners-web/static/js/runtime-main.eeb445d7.js",
-    "runtime-main.js.map": "/kpi-runners-web/static/js/runtime-main.eeb445d7.js.map",
+    "main.js": "/kpi-runners-web/static/js/main.fcd5105f.chunk.js",
+    "main.js.map": "/kpi-runners-web/static/js/main.fcd5105f.chunk.js.map",
+    "runtime-main.js": "/kpi-runners-web/static/js/runtime-main.8bff708d.js",
+    "runtime-main.js.map": "/kpi-runners-web/static/js/runtime-main.8bff708d.js.map",
     "static/css/2.b138469e.chunk.css": "/kpi-runners-web/static/css/2.b138469e.chunk.css",
-    "static/js/2.f08dd8a6.chunk.js": "/kpi-runners-web/static/js/2.f08dd8a6.chunk.js",
-    "static/js/2.f08dd8a6.chunk.js.map": "/kpi-runners-web/static/js/2.f08dd8a6.chunk.js.map",
-    "static/js/3.6e59e9c4.chunk.js": "/kpi-runners-web/static/js/3.6e59e9c4.chunk.js",
-    "static/js/3.6e59e9c4.chunk.js.map": "/kpi-runners-web/static/js/3.6e59e9c4.chunk.js.map",
+    "static/js/2.e1df9540.chunk.js": "/kpi-runners-web/static/js/2.e1df9540.chunk.js",
+    "static/js/2.e1df9540.chunk.js.map": "/kpi-runners-web/static/js/2.e1df9540.chunk.js.map",
+    "static/js/3.b7f83a44.chunk.js": "/kpi-runners-web/static/js/3.b7f83a44.chunk.js",
+    "static/js/3.b7f83a44.chunk.js.map": "/kpi-runners-web/static/js/3.b7f83a44.chunk.js.map",
     "index.html": "/kpi-runners-web/index.html",
     "static/css/2.b138469e.chunk.css.map": "/kpi-runners-web/static/css/2.b138469e.chunk.css.map",
     "static/css/main.9e70eac7.chunk.css.map": "/kpi-runners-web/static/css/main.9e70eac7.chunk.css.map",
-    "static/js/2.f08dd8a6.chunk.js.LICENSE.txt": "/kpi-runners-web/static/js/2.f08dd8a6.chunk.js.LICENSE.txt",
+    "static/js/2.e1df9540.chunk.js.LICENSE.txt": "/kpi-runners-web/static/js/2.e1df9540.chunk.js.LICENSE.txt",
     "static/media/FM pic1.d1092062.jpg": "/kpi-runners-web/static/media/FM pic1.d1092062.jpg",
     "static/media/ST.696a0626.jpeg": "/kpi-runners-web/static/media/ST.696a0626.jpeg",
     "static/media/bansal_shiva.bdc0b28c.jfif": "/kpi-runners-web/static/media/bansal_shiva.bdc0b28c.jfif",
@@ -22,10 +22,10 @@
     "static/media/t-shirt.771fb6b6.jpeg": "/kpi-runners-web/static/media/t-shirt.771fb6b6.jpeg"
   },
   "entrypoints": [
-    "static/js/runtime-main.eeb445d7.js",
+    "static/js/runtime-main.8bff708d.js",
     "static/css/2.b138469e.chunk.css",
-    "static/js/2.f08dd8a6.chunk.js",
+    "static/js/2.e1df9540.chunk.js",
     "static/css/main.9e70eac7.chunk.css",
-    "static/js/main.3d3bed92.chunk.js"
+    "static/js/main.fcd5105f.chunk.js"
   ]
 }

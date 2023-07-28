@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/kpi-runners-web/static/css/main.9e70eac7.chunk.css",
-    "main.js": "/kpi-runners-web/static/js/main.0d02f6ea.chunk.js",
-    "main.js.map": "/kpi-runners-web/static/js/main.0d02f6ea.chunk.js.map",
+    "main.css": "/kpi-runners-web/static/css/main.860f5414.chunk.css",
+    "main.js": "/kpi-runners-web/static/js/main.e3e9a548.chunk.js",
+    "main.js.map": "/kpi-runners-web/static/js/main.e3e9a548.chunk.js.map",
     "runtime-main.js": "/kpi-runners-web/static/js/runtime-main.56ba3244.js",
     "runtime-main.js.map": "/kpi-runners-web/static/js/runtime-main.56ba3244.js.map",
     "static/css/2.b138469e.chunk.css": "/kpi-runners-web/static/css/2.b138469e.chunk.css",
-    "static/js/2.711dfc5a.chunk.js": "/kpi-runners-web/static/js/2.711dfc5a.chunk.js",
-    "static/js/2.711dfc5a.chunk.js.map": "/kpi-runners-web/static/js/2.711dfc5a.chunk.js.map",
+    "static/js/2.d15931f7.chunk.js": "/kpi-runners-web/static/js/2.d15931f7.chunk.js",
+    "static/js/2.d15931f7.chunk.js.map": "/kpi-runners-web/static/js/2.d15931f7.chunk.js.map",
     "static/js/3.d533996b.chunk.js": "/kpi-runners-web/static/js/3.d533996b.chunk.js",
     "static/js/3.d533996b.chunk.js.map": "/kpi-runners-web/static/js/3.d533996b.chunk.js.map",
     "index.html": "/kpi-runners-web/index.html",
     "static/css/2.b138469e.chunk.css.map": "/kpi-runners-web/static/css/2.b138469e.chunk.css.map",
-    "static/css/main.9e70eac7.chunk.css.map": "/kpi-runners-web/static/css/main.9e70eac7.chunk.css.map",
-    "static/js/2.711dfc5a.chunk.js.LICENSE.txt": "/kpi-runners-web/static/js/2.711dfc5a.chunk.js.LICENSE.txt",
+    "static/css/main.860f5414.chunk.css.map": "/kpi-runners-web/static/css/main.860f5414.chunk.css.map",
+    "static/js/2.d15931f7.chunk.js.LICENSE.txt": "/kpi-runners-web/static/js/2.d15931f7.chunk.js.LICENSE.txt",
     "static/media/FM pic1.d1092062.jpg": "/kpi-runners-web/static/media/FM pic1.d1092062.jpg",
     "static/media/ST.696a0626.jpeg": "/kpi-runners-web/static/media/ST.696a0626.jpeg",
     "static/media/bansal_shiva.bdc0b28c.jfif": "/kpi-runners-web/static/media/bansal_shiva.bdc0b28c.jfif",
@@ -25,8 +25,8 @@
   "entrypoints": [
     "static/js/runtime-main.56ba3244.js",
     "static/css/2.b138469e.chunk.css",
-    "static/js/2.711dfc5a.chunk.js",
-    "static/css/main.9e70eac7.chunk.css",
-    "static/js/main.0d02f6ea.chunk.js"
+    "static/js/2.d15931f7.chunk.js",
+    "static/css/main.860f5414.chunk.css",
+    "static/js/main.e3e9a548.chunk.js"
   ]
 }

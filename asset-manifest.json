@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/kpi-runners-web/static/css/main.9e70eac7.chunk.css",
-    "main.js": "/kpi-runners-web/static/js/main.a057171b.chunk.js",
-    "main.js.map": "/kpi-runners-web/static/js/main.a057171b.chunk.js.map",
+    "main.js": "/kpi-runners-web/static/js/main.7087639e.chunk.js",
+    "main.js.map": "/kpi-runners-web/static/js/main.7087639e.chunk.js.map",
     "runtime-main.js": "/kpi-runners-web/static/js/runtime-main.56ba3244.js",
     "runtime-main.js.map": "/kpi-runners-web/static/js/runtime-main.56ba3244.js.map",
     "static/css/2.b138469e.chunk.css": "/kpi-runners-web/static/css/2.b138469e.chunk.css",
@@ -27,6 +27,6 @@
     "static/css/2.b138469e.chunk.css",
     "static/js/2.711dfc5a.chunk.js",
     "static/css/main.9e70eac7.chunk.css",
-    "static/js/main.a057171b.chunk.js"
+    "static/js/main.7087639e.chunk.js"
   ]
 }

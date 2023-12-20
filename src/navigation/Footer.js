@@ -2,14 +2,13 @@ import React from 'react';
 import {
   MDBFooter,
   MDBContainer,
-  MDBCol,
-  MDBRow,
   MDBIcon,
   MDBBtn
 } from 'mdb-react-ui-kit';
 
 export default function Footer() {
   return (
+    
     <MDBFooter className='bg-dark text-center text-white'>
       <MDBContainer className='p-4 pb-0'>
         <section className='mb-4'>
@@ -41,7 +40,7 @@ export default function Footer() {
       <div className='text-center p-3' style={{ backgroundColor: 'rgba(0, 0, 0, 0.2)' }}>
         © 2020 Copyright: 
         <a className='text-white' href='https://mdbootstrap.com/'>
-          pirunners.com
+          pirunners.in
         </a>
       </div>
     </MDBFooter>

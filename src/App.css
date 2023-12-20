@@ -6,11 +6,34 @@
   text-align-last: center;
 }
 
+.Table-Center-admins {
+  text-align: center;
+}
+
+.wrapper {
+  width: 100%;
+  font-size: 0;
+}
+.column {
+  display: inline-block;
+  min-height: 150px;
+  width: 60%;
+  margin-bottom: 8px;
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -ms-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
 .App-logo {
   height: 20vmin;
   align-self: center;
   pointer-events: none;
   
+}
+
+.table-div {
+  padding-left: 200px;
 }
 
 .additional-logo {
@@ -35,6 +58,7 @@
 }
 
 .App-header {
+  flex-grow: 1;
   background-color: hsl(52, 13%, 23%);
   min-height: 30vh;
   display: flex;
@@ -44,6 +68,18 @@
   color: rgb(231, 143, 20);
   
 }
+
+.nav {
+  background-color: hsl(231, 143, 20);
+  min-height: 1vh;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: rgb(231, 143, 20);
+  
+}
+
 
 .App-logo-left{
   width: 900px;
@@ -77,6 +113,11 @@ nav a {
   border: 1px solid gray;
   padding: 20px;
   border-radius: 50px;
+}
+
+.centerWithoutBorderAdmin {
+  margin: auto;
+  width: 900px;
 }
 
 .centerWithoutBorder {

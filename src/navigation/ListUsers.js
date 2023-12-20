@@ -1,17 +1,16 @@
 import { Table, TableBody, TableCell, TableHead, TableRow } from '@mui/material';
 import React, { useEffect, useState } from 'react';
 import axios from 'axios';
-import Home from './Home';
 import { Link } from 'react-router-dom/dist';
 
 const ListUsers = () => {
 
     const [users, setUsers] = useState([]);
     const getUsers = async () => {
-		const { data } = await axios.get(`https://kpirunnersapi.azurewebsites.net/api/UserRegistration?code=ZHVazmf8T8qYw2s5-pKipZQot76giBqaM7NxCRIMBkVKAzFuguAEEg==&name=shiva`);
+		const { data } = await axios.get(`https://pi-runners-app.azurewebsites.net/api/registrations?code=qTGCdzW5D_BYhkmDuoYEl3zBibe8guaKF4z4Vl_1tkbGAzFuw3Igjw==&entity=users`);
         //const { data } = await axios.get(`http://localhost:3000/users`);
-        console.log(data)
-        setUsers(data['users']);
+        
+        setUsers(data);
     };
     useEffect(() => {
         getUsers();

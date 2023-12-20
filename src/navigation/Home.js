@@ -6,8 +6,19 @@ import 'react-google-photo/styles.css';
 
 const Home = () => {
 
-  const [open, setOpen] = React.useState(true);
   const images= [Fmpic, cteam, stsession]
+  const [width, setWidth] = React.useState(window.innerWidth);
+    const [height, setHeight] = React.useState(window.innerHeight);
+
+    React.useEffect(() => {
+        window.addEventListener("resize", updateWidthAndHeight);
+        return () => window.removeEventListener("resize", updateWidthAndHeight);
+    });
+
+    const updateWidthAndHeight = () => {
+        setWidth(window.innerWidth);
+        setHeight(window.innerHeight);
+    };
 
 
   return (

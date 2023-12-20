@@ -1,4 +1,4 @@
-import React, { useCallback, useState } from 'react'
+import React, { useState } from 'react'
 import axios from 'axios';
 import { Box, Button, InputLabel, MenuItem, Select, TextField } from '@mui/material';
 import { Send } from '@mui/icons-material';
@@ -19,15 +19,21 @@ const Register = () => {
 
     const handleSubmit = () => {
         if(userName.length && email.length){
+            console.log("registering user")
+            console.log(user)
             addUsers();
             
         }
-        window.location.replace("/");
+        
     }
 
     const addUsers = async () => {
         //const { data } = await axios.post(`http://localhost:3000/users`, user);
-        const { data } = await axios.post(`http://localhost:5000/addUser`, user);
+        //const headers = {"Accept": "application/json", 'Content-Type': 'application/json'};
+        
+        const { data } = axios.post(`https://pi-runners-app.azurewebsites.net/api/registrations?code=qTGCdzW5D_BYhkmDuoYEl3zBibe8guaKF4z4Vl_1tkbGAzFuw3Igjw==`, user)
+        .then((res) => console.log(res.data))
+        .catch((err) => console.log(err));
         alert("user created successfully..."+data)
     };
     

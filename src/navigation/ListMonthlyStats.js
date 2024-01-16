@@ -43,14 +43,22 @@ const ListMonthlyStats = () => {
                     <TableRow>
                         <TableCell style={{fontWeight: 'bold'}}>Month Date</TableCell>
                         <TableCell style={{fontWeight: 'bold'}}>Athlete Name</TableCell>
-                        <TableCell style={{fontWeight: 'bold'}}>stats</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}}>Run</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}}>Cycle</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}}>Swimming</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}}>Workout</TableCell>
+                        <TableCell style={{fontWeight: 'bold'}}>Walk</TableCell>
                     </TableRow>
                 </TableHead>
                 {<TableBody>
                     {stats.map(stats => (<TableRow id={stats.statsDate}>
                         <TableCell >{stats.statsDate}</TableCell>
                         <TableCell >{stats.atheleteName}</TableCell>
-                        <TableCell>{stats.stats}</TableCell>
+                        <TableCell>{stats.run}</TableCell>
+                        <TableCell>{stats.cycle}</TableCell>
+                        <TableCell>{stats.swimming}</TableCell>
+                        <TableCell>{stats.workout}</TableCell>
+                        <TableCell>{stats.walk}</TableCell>
                     </TableRow>)
                     )}
                 </TableBody>}

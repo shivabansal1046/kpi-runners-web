@@ -15,12 +15,20 @@ const MonthlyStats = (props) => {
   
     const [statsDate, setstatsDate] = useState();
     const [atheleteName, setAthleteName] = useState()
-    const [stats, setStats] = useState();
+    const [run, setRun] = useState();
+    const [cycle, setCycle] = useState();
+    const [swimming, setSwimming] = useState();
+    const [workout, setWorkout] = useState();
+    const [walk, setWalk] = useState();
     const [tempVar, setTempVar] = useState(0);
     const monthlyStats = {
         statsDate: statsDate,
         atheleteName: atheleteName,
-        stats: stats
+        run: run,
+        cycle: cycle,
+        swimming: swimming,
+        workout: workout,
+        walk: walk
     };
   if (props.isAuth){
     const handleSubmit = () => {
@@ -59,9 +67,13 @@ const MonthlyStats = (props) => {
             <LocalizationProvider dateAdapter={AdapterDayjs}>
               <DatePicker id="statsDate" label="Month Date" value={statsDate} onChange={e => setstatsDate(e)}/>
             </LocalizationProvider>
+
             <TextField id="atheleteName" label="Athlete Name" variant="standard" onChange={e => setAthleteName(e.target.value)}/>
-            
-            <TextField id="stats" label="Stats" variant="standard" onChange={e => setStats(e.target.value)}/>
+            <TextField id="run" label="Run(km)" variant="standard" onChange={e => setRun(e.target.value)}/>
+            <TextField id="cycle" label="Cycle(km)" variant="standard" onChange={e => setCycle(e.target.value)}/>
+            <TextField id="swimming" label="swimming(mtrs)" variant="standard" onChange={e => setSwimming(e.target.value)}/>
+            <TextField id="workout" label="Workout(Minutes)" variant="standard" onChange={e => setWorkout(e.target.value)}/>
+            <TextField id="walk" label="Walk(km)" variant="standard" onChange={e => setWalk(e.target.value)}/>
             <Button variant="contained" endIcon={<Send />} onClick={handleSubmit}>
               Send
           </Button>
